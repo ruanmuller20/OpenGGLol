@@ -1,0 +1,56 @@
+body{
+     background-color: beige;
+    background-image: url(fundobraum.jpg);
+    
+    
+}
+
+p{
+  color: aliceblue;
+  font-size: 18px;
+ 
+}
+
+h1 {
+    display: flex; /* Usa flexbox */
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+ 
+}
+h1 img {
+    width: 250px; /* Define a largura desejada */
+    height: auto; /* Mantém a proporção da imagem */
+    vertical-align: middle; /* Alinha verticalmente no centro */
+    margin-right: 10px; /* Espaçamento à direita da imagem */
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 3);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    transition: all 0.5s ease;
+    width: 250px;
+    border-radius: 20px;
+    color: antiquewhite;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-container {
+    padding: 20px 16px;
+  }
+  
+  .flex-container{
+    display: flex;
+    flex-direction: row; /* Eixo principal*/
+    justify-content: flex-start; /* Eixo principal*/
+    align-items: center;/* Eixo transversal*/
+    gap: 50px;
+ }
+
+ 
+

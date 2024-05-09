@@ -1,0 +1,52 @@
+body{
+    background-image: url(nautilus.jpg);
+}
+
+h1{
+    color: aliceblue;
+    display: flex; /* Usa flexbox */
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+}
+
+h1 img {
+    width: 250px; /* Define a largura desejada */
+    height: auto; /* Mantém a proporção da imagem */
+    vertical-align: middle; /* Alinha verticalmente no centro */
+    margin-right: 10px; /* Espaçamento à direita da imagem */
+}
+
+h4{
+    font-size: 10px;
+}
+
+.card{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 3); /* aumentando a sombra */
+    width: 112px;
+    height: 100px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    transition: all 0.5s ease;
+    /*background-color: antiquewhite;*/
+    border-radius: 50%; /* Faz o card redondo */
+    color:white; /* Cor da fonte (preto) */
+    font-size: 16px; /* Tamanho da fonte */
+    overflow: hidden; 
+}
+
+.card img {
+    width: 50%; /* Define a largura da imagem para preencher o card */
+    height: 50%; /* Define a altura da imagem para preencher o card */
+    object-fit: cover; /* Redimensiona a imagem para preencher o espaço mantendo a proporção */
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row; /* Eixo principal*/
+    justify-content: flex-start; /* Eixo principal*/
+    align-items: center;/* Eixo transversal*/
+    gap: 10px;
+    margin-top: 20px;
+ }
